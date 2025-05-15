@@ -3,7 +3,10 @@
 This project implements an unsupervised anomaly detection system for ECG (Electrocardiogram) signals using various algorithms. The system analyzes ECG data to detect cardiac anomalies without using labeled data during training, though labels are used for evaluation and error analysis.
 
 ## Group Members
-[To be added]
+1.Dursun cihan Karadoğan
+2.Minh chau Nguyen
+3.Priyanka Sirikonda
+
 
 ## Dataset
 The project uses the MIT-BIH Arrhythmia Database, which contains 48 half-hour excerpts of two-channel ambulatory ECG recordings. The dataset is available at: [MIT-BIH Arrhythmia Database](https://www.physionet.org/content/mitdb/1.0.0/)
