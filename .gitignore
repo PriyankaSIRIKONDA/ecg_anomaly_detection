@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Python
 __pycache__/
 *.py[cod]
@@ -43,3 +44,11 @@ Thumbs.db
 *.log
 *.csv
 !data/mitbih_train.csv 
+=======
+*.ipynb_checkpoints
+__pycache__/
+*.pyc
+.DS_Store
+venv/
+data/*.csv
+>>>>>>> origin/main
