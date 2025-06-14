@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Python
 __pycache__/
 *.py[cod]
@@ -43,12 +42,23 @@ Thumbs.db
 # Project specific
 *.log
 *.csv
-!data/mitbih_train.csv 
-=======
-*.ipynb_checkpoints
-__pycache__/
-*.pyc
-.DS_Store
-venv/
-data/*.csv
->>>>>>> origin/main
+!data/mitbih_train.csv
+!data/mitbih_test.csv
+!data/ptbdb_abnormal.csv
+!data/ptbdb_normal.csv
+
+# Model files
+models/*.h5
+models/*.pkl
+models/*.joblib
+
+# Data directories
+data/raw/
+data/processed/
+data/interim/
+
+# Cache
+.cache/
+.pytest_cache/
+.coverage
+htmlcov/
